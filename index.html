@@ -1,0 +1,543 @@
+<!DOCTYPE html><!--Comentário-->
+<html lang="pt-br">
+    <head>
+        <meta charset ="UFT-8">
+        <title>CONCEITOS DE HARDWARE</title>
+      
+        <style>
+            .container{
+                display:flex;
+            }
+            #elementos #imgPlacamae{
+             display: inline-block;
+             width: 50%;
+            }
+           
+        </style>
+
+        <!--CONEXÃO EXTERNA DO CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--CONEXÃO INTERNA DO CSS: <style> </style>-->
+
+        <!--CONEXÃO EmLinha DO CSS: body style-->
+        
+
+        <!--Conectando o bootstrap no nosso projeto-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!--Bibliotecas java bootstrap que auxiliam na criação do carousel de imagens. Bibliotecas são códigos prontos, que quando importados trazem suas funcionalidades ao projeto-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        
+    </head>
+
+    <body>
+
+        <section id="introducao">
+            <center>
+            <h1 class="titulo">CONCEITO DE HARDWARE</h1>
+            <img src="src/imagens/cacto.jpg"alt="Faroeste ou processador?"
+            width="800" height="500">
+            <br><!--Pular o espaço de uma linha-->
+            <p>Hardware refere-se a componentes físicos de um sistema computacional, podendo ser: memória, processador, disco rígido, etc.</p>
+            
+            <h3>Ainda ficou dúvida? Assista o vídeo à seguir:</h3>
+        
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/N821SCozErY" title="O que é Hardware?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h3>Veja mais sobre...</h3>
+            <video src="src/videos/video_hardware.mp4" width="800" height="500" 
+            controls ></video>
+
+            <!--Forma 2 de incorporação de vídeos:
+            <video width="800" height="500" controls>
+                <source src="https://youtu.be/N821SCozErY?si=3HFth1PTajZe7_RI.mp4" type="video/mp4">
+            </video>
+            -->
+            </center>
+        </section>    
+            <section id="pecas">
+                <center>
+                <h1 class="titulo">COMPONENTES DE UM HARDWARE</h1>
+
+                <h3>Periféricos</h3> 
+                <div>
+                    <h4>Monitor</h4>
+                    <img src="src\imagens\monitor.jpg" alt="monitor" width="800" height="500">
+
+                    <h4>Teclado</h4>
+                    <img src="src\imagens\teclado.jpg" alt="teclado" width="800" height="500">
+
+                    <h4>Mouse</h4>
+                    <img src="src\imagens\mouse.jpg" alt="mouse" width="800" height="500">
+                    
+                    <h4>Fone de ouvido</h4>
+                    <img src="src\imagens\fone.jpg" alt="fone de ouvido" width="800" height="500">
+
+                    <h4>Roteador</h4>
+                    <img src="src\imagens\roteador.jpg" alt="roteador" width="800" height="500">
+                </div>
+                </center>
+            </section>
+                <section id="pecas_maquina">
+                    <center>
+
+                    <h1 class="titulo">COMPONENTES DA MÁQUINA</h1>
+                    
+                    <h3> O que há dentro de um gabinete?</h3>
+                    <p>O gabinete é o compartimento responsável por sustentar e proteger os dispositivos internos que compõe o computador. </p>
+
+                        <h4>Painel de Conectores</h4>
+                        <p> Faz integração dos perféricos com a máquina.</p>
+                    
+                        <img src="src\imagens\img1.PNG" alt="" width="800" height="300">
+
+                        <br> <!--Pular uma linha-->
+
+                        <table id="PainelConectores"> <!--Tabela-->
+
+                            <!--1° linha da tabela-->
+                            <tr id="cabecalho1">  <!--Cria uma linha-->
+
+                                <td>Número de Identificação</td> <!--Cria a coluna 1 da tabela-->
+                                <td>Descrição do Conector</td> <!--Cria a coluna 2 da tabela-->
+                            </tr>
+
+                            <!--2° linha da tabela-->
+                            <tr> 
+
+                                <td>1</td> 
+                                <td>Mouse/ Teclado </td> 
+                            </tr>
+                            
+                            <!--3° linha da tabela-->
+                            <tr> 
+
+                                <td>2</td> 
+                                <td>Porta USB 3.0</td> 
+                            </tr>
+
+                            <!--4° linha da tabela-->
+                            <tr> 
+
+                                <td>3</td> 
+                                <td>Saída de vídeo VGA</td> 
+                            </tr>
+
+                            <!--5° linha da tabela-->
+                            <tr> 
+
+                                <td>4</td> 
+                                <td>Saída de vídeo DVI</td> 
+                            </tr>
+
+                            <!--6° linha da tabela-->
+                            <tr>
+
+                                <td>5</td> 
+                                <td>Saída de áudio digital óptica</td> 
+                            </tr>
+
+                            <!--7° linha da tabela-->
+                            <tr> 
+
+                                <td>6</td> 
+                                <td>Saída de vídeo/ áudio HDMI</td> 
+                            </tr>
+
+                            <!--8° linha da tabela-->
+                            <tr> 
+
+                                <td>7</td> 
+                                <td>Saída de vídeo Display Port</td> 
+                            </tr>
+
+                            <!--9° linha da tabela-->
+                            <tr> 
+
+                                <td>8</td> 
+                                <td>Porta USB 2.0</td> 
+                            </tr>
+
+                            <!--10° linha da tabela-->
+                            <tr> 
+
+                                <td>9</td> 
+                                <td>Placa de Rede</td> 
+                            </tr>
+
+                             <!--11° linha da tabela-->
+                             <tr> 
+
+                                <td>10</td> 
+                                <td>Conectores de áudio</td> 
+                            </tr>
+
+                        </table>
+                        
+                        <h4>Placa-mãe</h4>
+                        <p>É uma peça central responsável por conectar e interligar todos os componentes (processador com memória RAM, disco rígido, placa gráfica). A placa une todas as partes do sistema numa só rede de fios, porque dispõe de caminhos que permitem a troca de informação entre processadores, memórias, placas e etc. </p>
+                      
+                        <center>
+                        
+                        <div class="container" >
+
+                            <!--padding-left: vai adicionar um espaço entre o elemento e a borda esquerda
+                            padding-right: vai adicionar um espaço entre o elemento e a borda direita
+                            padding-top: vai adicionar um espaço entre o elemento e a borda superior
+                            padding-bottom: vai adicionar um espaço entre o elemento e a borda inferior 
+                            Quanto maior o nº mais distante ele fica da borda-->
+
+                            <div id="imgPlacamae" style="padding-left: 20%;">
+                                <img src="src\imagens\img2.PNG" alt="" width="500" height="300">
+                            </div>
+                        
+                         <div id="elementos" style="padding-right: 50%; padding-left: 5%;">  
+                        
+                        <br>
+                        <table id="PlacaMae" style="width: 600px;"> <!--Tabela-->
+
+                            <!--1° linha da tabela-->
+                            <tr id="cabecalho2" > 
+
+                                <td>Número de Identificação</td> <!--Cria a coluna 1 da tabela-->
+                                <td>Descrição do Item</td> <!--Cria a coluna 2 da tabela-->
+                            </tr>
+
+                            <!--2° linha da tabela-->
+                            <tr> 
+
+                                <td>1</td> 
+                                <td>Processador</td> 
+                            </tr>
+                            
+                            <!--3° linha da tabela-->
+                            <tr>
+
+                                <td>2</td> 
+                                <td>Memória RAM</td> 
+                            </tr>
+
+                            <!--4° linha da tabela-->
+                            <tr>
+
+                                <td>3</td> 
+                                <td>Conector de Energia da Fonte do Computador</td> 
+                            </tr>
+
+                            <!--5° linha da tabela-->
+                            <tr> 
+
+                                <td>4</td> 
+                                <td>Conector de portas USB 3.0</td> 
+                            </tr>
+
+                            <!--6° linha da tabela-->
+                            <tr> 
+
+                                <td>5</td> 
+                                <td>Portal serial ATA(SATA) para ligar HDs</td> 
+                            </tr>
+
+                            <!--7° linha da tabela-->
+                            <tr> 
+
+                                <td>6</td> 
+                                <td>Conector de portas USB 2.0</td> 
+                            </tr>
+
+                            <!--8° linha da tabela-->
+                            <tr> 
+
+                                <td>7</td> 
+                                <td>Slot PCI-Express 16x (PCI-e 16x) para placa de vídeo</td> 
+                            </tr>
+
+                            <!--9° linha da tabela-->
+                            <tr> 
+
+                                <td>8</td> 
+                                <td>Slot PCI-Express 1x (PCI-e 1x) para placa de expansão</td> 
+                            </tr>
+
+                        </table>   
+
+                        </div>
+                        
+                        
+                    </center>
+                    </div>
+                 
+               
+                        <h4>Disco Rígido HD</h4>
+                        <p>Tem a finalidade de armazenar todo tipo de conteúdo que se deseja manter no computador, como: arquivos, programas, jogos e etc.</p>
+                        <img src="src\imagens\img3.PNG" alt="" width="500" height="300">
+
+                        <h4>Memória RAM</h4>
+                        <p>Sua função é guardar temporariamente toda a informação que o computador precisa, durante o uso de programas. </p>
+                        <img src="src\imagens\img4.PNG" alt="" width="800" height="200">
+
+                        <h4>Processador</h4>
+                        <p> É frequentemente considerado como o cérebro do computador, atuando na organização da entrada e da saída dos dados, na gravação das informações na memória e nos dispositivos de armazenamento. </p>
+                        <img src="src\imagens\img5.PNG" alt="" width="500" height="300">
+
+                        <h4>Placa de Vídeo</h4>
+                        <p>É a responsável por realizar a conexão entre os componentes do computador em si e o monitor, sendo responsável por tudo que é exibido na tela para o usuário.</p>
+                        <img src="src\imagens\img6.PNG" alt="" width="500" height="300">
+
+                        <h4>Fonte de Alimentação</h4>
+                        <p>É um componente fundamental para a máquina. É nela que irá ocorrer o processo de transformação de energia elétrica que chega pelas tomadas em uma corrente elétrica contínua, para que todo o sistema funcione sem problemas.</p>
+                        <img src="src\imagens\img8.PNG" alt="" width="500" height="300" style="margin-bottom: 50px;">
+                    
+                    </center>
+                </section>
+
+                <center>
+
+                    <h1 class="titulo">SOBRE O CURSO</h1>
+                    <p>Estou cursando o curso de reparos e configurações de computadores no SENAI Paulínia, para desenvolver todas as habilidades em TI, estamos registrando nosso aprendizado construindo uma página web. 
+                    
+                    <br>
+
+                    Gostaria de saber quais cursos tem no SENAI Paulínia? Acesse a página:</p>
+                    <br>
+
+                    
+                    <img src="src/imagens/senai.jpeg"alt="Senai Paulínia" width="800" height="500">
+
+                    <!--Tag ancora que faz a incorporação de páginas dentro do nosso projeto-->
+
+                <div> 
+                    
+                <br>
+                    <a href="https://sp.senai.br/unidade/paulinia" target="_blank">Visite  a página do SENAI Paulínia</a>
+                </div>
+
+                <br>
+
+                </center>
+
+                <center>
+                <h1 class="titulo">Preço Computador SENAI</h1>
+                <br>
+                <br>
+                <table id="PrecoComputador"> <!--Tabela-->
+
+                    <!--1° linha da tabela-->
+                    <tr id="cabecalho3"> 
+
+                        <td>Quantidade</td> 
+                        <td>Componente</td> 
+                        <td>Descrição</td> 
+                        <td>Valor</td> 
+                        <td>Site</td> 
+                    </tr>
+
+                    <!--2° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>Processador</td>
+                        <td>AMD  Phenom™ II  X2 550 3.1 GHz</td> 
+                        <td>R$ 54,19</td> 
+                        <td> <a href="https://encurtador.com.br/flyNO">Mercado Livre</a> </td> 
+                        
+                    </tr>
+                    
+                    <!--3° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>HD</td>
+                        <td>160GB SATA/150 7200RPM 9MS-MX DM10</td> 
+                        <td>R$ 107,10</td> 
+                        <td> <a href="https://encurtador.com.br/evFT8">Magazine Luiza</a> </td>  
+
+                    </tr>
+
+                    <!--4° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>Fonte de Alimentação</td>
+                        <td>TFX 300W 100</td> 
+                        <td>R$ 107,00</td> 
+                        <td> <a href="https://encurtador.com.br/glqAD">Mercado Livre</a> </td> 
+
+                    </tr>
+
+                    <!--5° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>Placa-mãe</td>
+                        <td>SM 3330 Itautec</td> 
+                        <td>R$ 215,00</td> 
+                        <td> <a href="https://encurtador.com.br/dmBHL">Mercado Livre</a> </td> 
+
+                    </tr>
+
+                    <!--6° linha da tabela-->
+                    <tr>
+
+                        <td>1</td> 
+                        <td>Cooler</td>
+                        <td>D15-9HDSL-0L-GP Cooler Master</td> 
+                        <td>R$ 350,00</td> 
+                        <td> <a href="https://encurtador.com.br/bcOV9">Ponto da Eletrônica</a> </td> 
+
+                    </tr>
+
+                    <!--7° linha da tabela-->
+                    <tr> 
+
+                        <td>3</td> 
+                        <td>Memória RAM</td>
+                        <td>DIMM DDR3 1333MHZ 2GB</td> 
+                        <td>R$ 65,00</td> 
+                        <td> <a href="https://acesse.one/sbtaH">Amazon</a> </td> 
+                         
+                    </tr>
+
+                    <!--8° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>Leitor CD e DVD</td>
+                        <td>DVD-R/RW/RAM IHAS124-04 PT SATA LT S/SW</td> 
+                        <td>R$ 99,49</td> 
+                        <td> <a href="https://acesse.one/nf3Mw">Mercado Livre</a> </td> 
+
+                    </tr>
+
+                    <!--9° linha da tabela-->
+                    <tr> 
+
+                        <td>1</td> 
+                        <td>Gabinete</td>
+                        <td>INFOWAY 8M330 WINDOWS 7 HOME BASIC</td> 
+                        <td>R$ 72,90</td> 
+                        <td> <a href="https://abre.ai/hB8J">Mercado Livre</a> </td> 
+
+                    </tr>
+
+                </center>    
+
+                </table>
+                <br>
+                <br>
+              
+
+        <!--Título da seção de produtos-->
+        <h1 class="titulo">Produtos Disponíveis </h1>
+        <br>
+
+        <!--Carousel de imagens-->
+        <div style="width: 650px; height: 600px; margin-bottom: 50px;" >
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="src/imagens/pc1.jpg" alt="Primeiro Slide" width="650px" height="580px">
+                    <div style="background-color: rgba(0, 0, 0, 0.479);" class="carousel-caption d-none d-md-block">
+                        <h5>PC Gamer Completo 3green Play</h5>
+                        <p>
+                            Core i5, placa de vídeo offboard Nvidia Geforce. S.O Linux com tela de 20 polegadas GARANTIA: 1 ANO R$ 2.699,99
+                        </p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="src/imagens/pc2.jpg" alt="Segundo Slide"  width="650px" height="580px">
+                    <div style="background-color: rgba(0, 0, 0, 0.479);" class="carousel-caption d-none d-md-block">
+                        <h5>PC Gamer Completo</h5>
+                        <p>
+                            Core i5, placa de vídeo GT 730 2GB. S.O Windows 10 Pro com tela de 20 polegadas.GARANTIA: 1 ANO R$ 3.299,99
+                        </p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="src/imagens/pc3.jpg" alt="Terceiro Slide"  width="650px" height="558px">
+                    <div style="background-color: rgba(0, 0, 0, 0.479);" class="carousel-caption d-none d-md-block">
+                        <h5>PC Gamer Completo Mancer</h5>
+                        <p>
+                            Core i5 8ª Geração, placa de vídeo GTX 1660 SUPER 6GB. S.O Windows 10 com tela de 21 polegadas.GARANTIA: 1 ANO R$ 4.999,99
+                        </p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="src/imagens/pc4.jpg" alt="Quarto Slide"  width="650px" height="580px">
+                    <div style="background-color: rgba(0, 0, 0, 0.479);" class="carousel-caption d-none d-md-block">
+                        <h5>PC Gamer Completo Mancer</h5>
+                        <p>
+                            Core i5, placa de vídeo Radeon RX 550 4GB. S.O Windows 10 com tela de 21 polegada GARANTIA: 1 ANO R$ 3.099,99
+                        </p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="src/imagens/pc5.jpg" alt="Quinto Slide"  width="650px" height="580px">
+                    <div style="background-color: rgba(0, 0, 0, 0.479);" class="carousel-caption d-none d-md-block">
+                        <h5>PC Gamer Completo 3green</h5>
+                        <p>
+                            Core i7, placa de vídeo Geforce GTX 4GB. S.O Linux com tela de 24 polegadas.GARANTIA: 1 ANO R$ 3.099,99
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                <!--Botões anterior e próximo-->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+        </div>
+
+        <!--Pendrive Bootável-->
+        <h1 class="titulo">Construindo um pendrive Bootável</h1>
+
+        <p> 1° Necessário um pendrive de no mínimo 8GB de de memória <br>
+            2° Baixar a imagem do windos através do site: <a href="https://abre.ai/hB90">Microsoft</a> <br>
+            3° Com o download no pendrive, estará pronto para ser usado para a formatação do windows.
+        </p>
+
+        <!--Formatação do Computador-->
+        <h1 class="titulo">Formatação do Computador</h1>
+
+        <p> Pode ser realizada de duas formas: <br>
+            <br>
+            - Pelo próprio sistema: <br>
+            1° Pesquisar pelo sistema de restaurar o pc <br>
+            2° Iniciar a restauração. <br>
+            Para isso, necessita-se de conexão com a internet para o download do windos. <br>
+            <br>
+            - Pelo pendrive: <br>
+            1° Iniciar o processo entrando no boot do sistema, enquanto pressiona a tecla "del" até a inicialização <br> 
+            2° Assim, abrirá o menu de SETUP e então, selecionará a opção "boot" <br>
+            3° Selecione a entrada "usb" que está conectado o pendrive como a primeira na lista da ordem de executação, salve a alteração <br>
+            4° Reinicie a máquina. 
+
+        
+
+
+        
+      
+
+
+
+    </body>
+
+</html> 
