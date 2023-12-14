@@ -66,4 +66,12 @@ td{
     width: 700px;
 }
 
+#cabecalho3{
+    background-color: deeppink; /*Cor do fundo*/
+    color:rgb(255, 255, 255); /*Cor da letra*/
+    
+    font-family: 'Courier New', Courier, monospace; /*Definir o tipo de letra*/
+    font-weight: bold; /*Colocar em negrito*/
+    font-size: 15px; /*Tamanho da letra*/
+}
 
